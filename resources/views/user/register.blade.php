@@ -38,17 +38,24 @@
                                         </div>                               
                                     </div><!--end form-group--> 
         
+                                    <div class="form-group">
+                                        <label for="username">Full Name</label>
+                                        <div class="input-group mb-3">
+                                            <span class="auth-form-icon">
+                                                <i class="dripicons-user"></i> 
+                                            </span>                                                                                                              
+                                            <input type="text" class="form-control" id="username" placeholder="Full name">
+                                        </div>                                    
+                                    </div><!--end form-group-->
+
                                     <div class="form-group row mt-4">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-12">
                                             <div class="custom-control custom-switch switch-success">
                                                 <input type="checkbox" class="custom-control-input" id="customSwitchSuccess">
-                                                <label class="custom-control-label text-muted" for="customSwitchSuccess">Remember me</label>
+                                                <label class="custom-control-label text-muted" for="customSwitchSuccess">By registering you agree to the <a href="#" class="text-primary">Terms of Use</a></label>
                                             </div>
-                                        </div><!--end col--> 
-                                        <div class="col-sm-6 text-right">
-                                            <a href="/user/forgot-password" class="text-muted font-13"><i class="dripicons-lock"></i> Forgot password?</a>                                    
-                                        </div><!--end col--> 
-                                    </div><!--end form-group--> 
+                                        </div><!--end col-->                                             
+                                    </div><!--end form-group-->                      
         
                                     <div class="form-group mb-0 row">
                                         <div class="col-12 mt-2">

@@ -27,7 +27,7 @@
     
                                     <!--<h4 class="mt-0 header-title">Senarai Agensi</h4>-->
                                     <p class="text-muted mb-4 font-13">All transaction view within 1 year</p>
-<p class="text-muted mb-4 font-13">Click on Account Number to view or print Transaction Statements</p>
+                                    <p class="text-muted mb-4 font-13">Click on Account Number to view or print Transaction Statements</p>
     
                                     <table id="datatable" class="table table-bordered dt-responsive" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                                         <thead>

@@ -1,6 +1,5 @@
 @extends('layouts.user')
 @section('content')
-                <div class="container-fluid">
                     <!-- Page-Title -->
                     <div class="row">
                         <div class="col-sm-12">
@@ -20,7 +19,7 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-								<form id="addfav" action="/user/add_fav.php">
+								<form id="addfav" action="/user/add_fav">
                                     <button class="btn btn-primary px-4 btn-rounded float-right mt-0 mb-3" type="submit">+ Add Favourite Payee</button></form>
     
                                     <!--<h4 class="mt-0 header-title">Senarai Agensi</h4>-->
@@ -66,9 +65,4 @@
                             </div>
                         </div> <!-- end col -->
                     </div> <!-- end row -->  
-
-                </div><!-- container -->
-
-               </div>
-            <!-- end page content -->
           @endsection

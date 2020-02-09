@@ -13,9 +13,7 @@
         <script src="/assets/js/waves.min.js"></script>
         <script src="/assets/js/jquery.slimscroll.min.js"></script>
 
-        <script src="/assets/plugins/apexcharts/apexcharts.min.js"></script>
-        <script src="/assets/pages/jquery.analytics_dashboard.init.js"></script>
-
+        @yield('js')
 
         <!-- App js -->
         <script src="/assets/js/app.js"></script>

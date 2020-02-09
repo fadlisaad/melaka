@@ -62,6 +62,89 @@
                                         </div><!--end row-->
                                     </div><!--end f_profile-->                                                                                
                                 </div><!--end card-body-->
-            </div>
-            <!-- end page content -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="setFullName">Full Name</label>
+                                            <input type="text" class="form-control" id="setFullName" placeholder="Full Name">
+                                        </div><!--end form-group-->                                        
+                                        <div class="form-group">
+                                            <label for="setEmail">Email address</label>
+                                            <input type="email" class="form-control" id="setEmail" placeholder="Enter email">
+                                        </div><!--end form-group-->
+                                        <div class="form-group">
+                                            <label for="setPassword">Password</label>
+                                            <input type="password" class="form-control" id="setPassword" placeholder="Password">
+                                        </div><!--end form-group-->
+                                        <button type="submit" class="btn btn-secondary btn-sm">Save Change</button>
+                                    </form> <!--end form-->
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div><!--end col-->
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="setLinkAc">Linked Account</label>
+                                            <select class="form-control" id="setLinkAc">
+                                                <option>PayPal</option>
+                                                <option>VISA</option>
+                                                <option>ICICI</option>
+                                                <option>HDFC</option>
+                                            </select>
+                                        </div><!--end form-group-->      
+                                        <div class="form-group">
+                                            <label for="setCurrency">Collect Currency</label>
+                                            <select class="form-control" id="setCurrency">
+                                                <option>US Dollar</option>
+                                                <option>Pounds</option>
+                                                <option>Euro</option>
+                                                <option>Yen</option>
+                                            </select>
+                                        </div>  <!--end form-group-->                                                       
+                                        <div class="form-group">
+                                            <label for="setChangePassword">Change Wallet Password</label>
+                                            <input type="password" class="form-control" id="setChangePassword" placeholder="Password">
+                                        </div> <!--end form-group-->                                                   
+                                        <button type="submit" class="btn btn-secondary btn-sm">Save Change</button>
+                                    </form> <!--end form-->
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div><!--end col-->
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="mt-0 mb-3 header-title">Notification Setting</h4>
+                                    <div class="text-center">
+                                        <img src="../assets/images/widgets/notify.svg" alt="" class="mb-3" height="115">
+                                    </div>
+                                    <form>
+                                        <div class="custom-control custom-switch switch-success mb-2">
+                                            <input type="checkbox" class="custom-control-input" id="ICOnotify" checked="">
+                                            <label class="custom-control-label" for="ICOnotify">Get notification, New coin ICO in crypto market</label>
+                                        </div>
+                                        <div class="custom-control custom-switch switch-success mb-2">
+                                            <input type="checkbox" class="custom-control-input" id="notyfySound">
+                                            <label class="custom-control-label" for="notyfySound">Notification with sound</label>
+                                        </div>
+                                        <div class="custom-control custom-switch switch-success mb-2">
+                                            <input type="checkbox" class="custom-control-input" id="notifyF_friends">
+                                            <label class="custom-control-label" for="notifyF_friends">Get notification, Only my facebook's friends</label>
+                                        </div>
+                                        <div class="custom-control custom-switch switch-success">
+                                            <input type="checkbox" class="custom-control-input" id="autoLockWallet" checked="">
+                                            <label class="custom-control-label" for="autoLockWallet">Auto lock my wallet</label>
+                                        </div>
+                                    </form> <!--end form-->
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div><!--end col-->
+                    </div>
 @endsection

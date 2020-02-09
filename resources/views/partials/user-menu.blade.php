@@ -1,5 +1,5 @@
 <li>
-    <a class="nav-link" href="/user/profile"><i class="ti-face-smile"></i><span>Profile</span><span class="menu-arrow"></span></a>
+    <a class="nav-link" href="/user/dashboard"><i class="ti-home"></i><span>Dashboard</span><span class="menu-arrow"></span></a>
 </li>
 
 <li>
@@ -37,7 +37,12 @@
         <span>Print Carian Persendirian </span>
         <span class="menu-arrow"></span>
 </a></li>
-
+<li>
+    <a class="nav-link" href="/user/profile"><i class="ti-face-smile"></i><span>Profile</span><span class="menu-arrow"></span></a>
+</li>
+<li>
+    <a class="nav-link" href="/user/faq"><i class="mdi mdi-comment-question-outline"></i><span>FAQ</span><span class="menu-arrow"></span></a>
+</li>
 <li>
     <a href="/user/login" onClick="alert('Anda Pasti Untuk Log Keluar?')"><i class="ti-share-alt"></i>
         <span>Log Out </span>
